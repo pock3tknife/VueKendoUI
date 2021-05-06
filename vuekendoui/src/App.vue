@@ -3,6 +3,7 @@
     <header>
       <Navbar />
     </header>
+    <router-view />
   </div>
 </template>
 

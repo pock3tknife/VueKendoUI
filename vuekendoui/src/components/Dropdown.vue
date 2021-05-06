@@ -4,10 +4,7 @@
       {{ title }}
     </a>
     <svg viewBox="0 0 1030 638" width="10">
-      <path
-        d="M1017 68L541 626q-11 12-26 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z"
-        fill="#FFF"
-      ></path>
+      <path d="M1017 68L541 626q-11 12-26 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z" fill="#FFF"></path>
     </svg>
     <transition name="fade" appear>
       <div class="sub-menu" v-if="isOpen">
@@ -21,14 +18,14 @@
 
 <script>
 export default {
-  name: "dropdown",
-  props: ["title", "items"],
-  data() {
+  name: 'dropdown',
+  props: ['title', 'items'],
+  data () {
     return {
-      isOpen: false,
-    };
-  },
-};
+      isOpen: false
+    }
+  }
+}
 </script>
 
 <style>
@@ -49,7 +46,7 @@ nav .menu-item .sub-menu {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 0.5s ease-out;
+  transition: all .5s ease-out;
 }
 
 .fade-enter,

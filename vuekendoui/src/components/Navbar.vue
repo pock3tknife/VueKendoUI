@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <div class="menu-item"><a href="#">Home</a></div>
-    <div class="menu-item"><a href="#">About</a></div>
+    <div class="menu-item"><router-link to="/">Home</router-link></div>
+    <div class="menu-item"><router-link to="/about">About</router-link></div>
     <Dropdown title="Services" :items="services" />
     <div class="menu-item"><a href="#">Contact</a></div>
   </nav>
