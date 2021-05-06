@@ -2,7 +2,7 @@
   <nav>
     <div class="menu-item"><router-link to="/">Home</router-link></div>
     <div class="menu-item"><router-link to="/about">About</router-link></div>
-    <Dropdown title="Services" :items="services" />
+    <Dropdown title="Grid" :items="griditems" />
     <div class="menu-item"><a href="#">Contact</a></div>
   </nav>
 </template>
@@ -17,10 +17,10 @@ export default {
   },
   data() {
     return {
-      services: [
+      griditems: [
         {
-          title: "Web",
-          link: "#",
+          title: "editing-custom-template",
+          link: "editing-custom-template",
         },
         {
           title: "Design",
