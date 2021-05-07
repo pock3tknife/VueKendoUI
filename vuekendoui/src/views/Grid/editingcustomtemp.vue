@@ -204,3 +204,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.k-grid-toolbar {
+  margin-top: 100px;
+}
+</style>

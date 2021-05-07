@@ -17,7 +17,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   {
-    path: "/editing-custom-template",
+    path: "/grid/editing-custom-template",
     name: "editing-custom-template",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
